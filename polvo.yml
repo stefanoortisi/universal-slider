@@ -1,0 +1,22 @@
+server:
+  root: ./public
+  port: 11234
+
+input:
+  - ./src
+
+
+output:
+  js: ./public/app.js
+  css: ./public/app.css
+
+alias:
+  theoricus: ./vendors/theoricus/www/src/theoricus
+  app: ./src/app
+  templates: ./src/templates
+
+minify:
+  js: true
+  css: true
+
+boot: ./src/app/app
