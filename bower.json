@@ -1,0 +1,24 @@
+{
+  "name": "universal-slider",
+  "version": "0.1.0",
+  "author": "Stefano Ortisi <stefanoortisi@gmail.com>",
+  "contributors": [
+  ],
+  "description": "A simple touch-enabled slider",
+  "main": "lib/universal_slider.js",
+  "keywords": [
+    "coffeescript",
+    "slider",
+    "ios",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src"
+  ],
+  "dependencies": {}
+}

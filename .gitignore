@@ -1,7 +1,9 @@
 node_modules
+bower_components
 .DS_Store
-public/app.css
-public/app.js
-/npm-debug.log
-/public/experiments/temp/
-_old
+
+test/coverage
+test/services
+test/fixtures/app/public/__split__
+test/fixtures/app/public/app.css
+test/fixtures/app/public/app.js

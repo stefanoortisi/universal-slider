@@ -1,0 +1,13 @@
+# enabling nodejs
+language: node_js
+
+
+node:
+  - 0.10.x
+
+before_script:
+
+script:
+  - make test
+
+before_script:
