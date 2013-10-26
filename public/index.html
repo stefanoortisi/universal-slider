@@ -1,12 +1,15 @@
 <!doctype html>
 <html>
     <head>
-
-        <link href="/app.css" rel="stylesheet" type="text/css" />
+        <title>My Awesome App - made with Theoricus</title>
+        <link rel="stylesheet" type="text/css" href="/app.css">
     </head>
     <body>
-    	
-    	<script src="/jquery-1.9.0.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="/app.js"></script>
+       <script type='text/javascript'>
+        var s = document.createElement('script'),
+          h = document.getElementsByTagName('head')[0];
+        s.src = '/app.js';
+        h.insertBefore(s, h.lastChild);
+      </script>
     </body>
 </html>
